@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aivillagers",
+  "version": "1.0.0",
+  "name": "AI Villagers",
+  "description": "Villagers with memory, emotions and group AI",
+  "authors": ["Mrghost6337"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrghost.aivillagers.AIVillagersMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
